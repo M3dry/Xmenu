@@ -26,11 +26,7 @@ Terminals
 	Xterm	xterm
 	Alacritty	alacritty
 	Nvim	$TERMINAL nvim
-Emacs
-	Dashboard	emacsclient -c
-	Dired	emacsclient -c -e '(dired nil)'
-	Elfeed	emacsclient -c -e '(elfeed)'
-	Ibuffer	emacsclient -c -e '(ibuffer)'
+Nvim	$TERMINAL nvim
 
 Dwm
 	Layouts
@@ -45,6 +41,7 @@ Dwm
 		HHH Grid	dwmc setlayoutex 8
 	Toggle bar	dwmc togglebar
 	Toggle vacant	dwmc togglevacant
+	Toggle padding	dwmc togglepadding
 	Quit dwm	dwmc quit 0
 	Restart dwm	dwmc quit 1
 1

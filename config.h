@@ -1,6 +1,6 @@
 static struct Config config = {
 	/* font, separate different fonts with comma */
-	.font = "mononoki Nerd Font:size=12,Joypixels:size=9",
+	.font = "Operator Mono SSm Lig Nerd Font:size=12,Joypixels:size=9",
 
 	/* colors */
 	.background_color = "#1e1c31",
